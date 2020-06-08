@@ -1,0 +1,83 @@
+/* h2{color: blueviolet;}
+#adil{
+    border: 10px solid green;
+    background-color: red ;
+    width: 400px;
+    height: 400px;
+}
+#New{
+    border: 10px solid cadetblue;
+    background-color: chartreuse;
+    width: 400px;
+    height: 400px;
+
+
+} */
+
+
+
+/* .New1{
+    border: 10px solid cadetblue;
+    background-color: chartreuse;
+    width: 400px;
+    height: 400px;
+
+}
+
+.first_class{
+    border: 10px solid darkred ;
+    background-color:darkorchid ;
+    width: 400px;
+    height: 400px;
+
+} */
+
+#div1{
+    border: 10px solid darkred ;
+    background-color:darkorchid ;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    animation: 10s  movment;
+}
+#div2-setting{
+     padding-left: 500px;
+    
+}
+@keyframes movment {
+    from{ padding-top: 600px;background-color: darkgoldenrod;}
+    to{padding-right: 400px;background-color: black;}
+}
+#div2{
+    border: 10px solid rgb(32, 139, 0) ;
+    background-color:rgb(50, 173, 204) ;
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+
+    
+}
+#div3-setting{
+
+}
+@keyframes moving{
+    from { padding-right: 500px;background-color: burlywood;}
+    to{padding-bottom: 800px;background-color: lightseagreen;}
+
+}
+#div3{
+    border: 10px solid rgb(0, 107, 139) ;
+    background-color: rgb(0, 9, 139);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    animation: 10s moving;
+    
+}
+#main{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 300px;
+
+
+}
